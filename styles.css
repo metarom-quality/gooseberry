@@ -1,0 +1,189 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+
+hr {
+  margin: 1.5em 0 1.5em 0;
+  width: 95%;
+}
+
+h1 {
+  padding-left: 20px;
+  margin: 0;
+}
+
+p {
+  font-size: small;
+}
+
+tag {
+  border: 1px solid black;
+  padding: 0 3em 0 3em;
+  width: 5em;
+}
+
+p.car {
+  padding: 1em;
+}
+
+p.carnr {
+  padding-right: 10%;
+  float: right;
+}
+
+p.clear {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+ul.summary {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+ul.summary li {
+  display: inline-block;
+  width: 32%;
+  margin: 0;
+  padding: 0;
+}
+
+div.form {
+  margin: 10px;
+  padding: 5px;
+}
+
+div.navbar {
+  font-size: small;
+  width: 80%;
+  text-align: right;
+  padding: 2px 5% 2px 0;
+  float: right;
+}
+
+div.navbar ul li {
+  display: inline;
+}
+
+div.PS_form {
+  float: none;
+  padding: 20px;
+}
+
+table {
+  padding-top: 10px;
+  width: 95%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table#qach tr {
+  font-size: small;
+}
+
+table#qach tr td{
+  padding: 0 0.3em 0 0.3em;
+  border: 1px solid black;
+}
+
+table#qach tr td.qt {
+  width: 14em;
+}
+
+table#opcheck {
+  margin-top: -10px;
+  font-size: small;
+  border: none;
+}
+
+table#opcheck td.opdis {
+  padding: 0;
+  max-width: 0;
+  width: 70%;
+}
+
+table#opcheck td.pf, td.sig {
+  padding: 0;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
+  padding-top: 5px;
+}
+
+td {
+  padding-top: 5px;
+  padding-bottom: 3px;
+  max-width: 0;
+  overflow: visible;
+}
+
+tr.inst td {
+  border: none;
+}
+
+tr.normal td {
+  max-width: 0;
+  text-overflow: ellipse;
+  font-weight: bold;
+/*  border: 1px solid black;*/
+}
+
+td.picto,
+th.picto {
+  width: 2em;
+  border: 1px solid black;
+  border-left: none;
+}
+
+th.ind,
+td.ind {
+  padding-top: 5px;
+  width: 20%;
+  white-space: nowrap;
+  border: 1px solid black;
+}
+
+td.ind {
+  padding-left: .7em;
+}
+
+th.descr,
+td.descr {
+  width: 28%;
+  text-align: center;
+  border: 1px solid black;
+  border-right: none;
+}
+
+td.formu,
+td.quant {
+  width: 15%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+td.misc {
+  border: 1px solid black;
+}
